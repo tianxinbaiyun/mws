@@ -56,24 +56,12 @@ Project information and existing API
  - using env:	export GIN_MODE=release
  - using code:	gin.SetMode(gin.ReleaseMode)
 
-[GIN-debug] GET    /auth                     --> github.com/tianxinbaiyun/mws/routers/api.GetAuth (3 handlers)
-[GIN-debug] GET    /swagger/*any             --> github.com/tianxinbaiyun/mws/vendor/github.com/swaggo/gin-swagger.WrapHandler.func1 (3 handlers)
-[GIN-debug] GET    /api/v1/tags              --> github.com/tianxinbaiyun/mws/routers/api/v1.GetTags (4 handlers)
-[GIN-debug] POST   /api/v1/tags              --> github.com/tianxinbaiyun/mws/routers/api/v1.AddTag (4 handlers)
-[GIN-debug] PUT    /api/v1/tags/:id          --> github.com/tianxinbaiyun/mws/routers/api/v1.EditTag (4 handlers)
-[GIN-debug] DELETE /api/v1/tags/:id          --> github.com/tianxinbaiyun/mws/routers/api/v1.DeleteTag (4 handlers)
-[GIN-debug] GET    /api/v1/articles          --> github.com/tianxinbaiyun/mws/routers/api/v1.GetArticles (4 handlers)
-[GIN-debug] GET    /api/v1/articles/:id      --> github.com/tianxinbaiyun/mws/routers/api/v1.GetArticle (4 handlers)
-[GIN-debug] POST   /api/v1/articles          --> github.com/tianxinbaiyun/mws/routers/api/v1.AddArticle (4 handlers)
-[GIN-debug] PUT    /api/v1/articles/:id      --> github.com/tianxinbaiyun/mws/routers/api/v1.EditArticle (4 handlers)
-[GIN-debug] DELETE /api/v1/articles/:id      --> github.com/tianxinbaiyun/mws/routers/api/v1.DeleteArticle (4 handlers)
 
 Listening port is 8000
 Actual pid is 4393
 ```
 Swagger doc
 
-![image](https://i.imgur.com/bVRLTP4.jpg)
 
 ## Features
 
