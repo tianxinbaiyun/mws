@@ -1,0 +1,7 @@
+.DS_Store
+test
+debug
+
+*.img
+.idea
+runtime/logs/*.log
